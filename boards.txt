@@ -3181,6 +3181,15 @@ GenG0.build.series=STM32G0xx
 GenG0.build.cmsis_lib_gcc=arm_cortexM0l_math
 GenG0.build.extra_flags=-D{build.product_line} {build.enable_usb} {build.xSerial} -D__CORTEX_SC=0
 
+# GreenTea Dev G030C8T
+GenG0.menu.pnum.GTD_DAUGHTER=GTD Daugther
+GenG0.menu.pnum.GTD_DAUGHTER.upload.maximum_size=65536
+GenG0.menu.pnum.GTD_DAUGHTER.upload.maximum_data_size=8192
+GenG0.menu.pnum.GTD_DAUGHTER.build.board=GTD_DAUGHTER
+GenG0.menu.pnum.GTD_DAUGHTER.build.product_line=STM32G030xx
+GenG0.menu.pnum.GTD_DAUGHTER.build.variant=STM32G0xx/G030C(6-8)T
+GenG0.menu.pnum.AURORA_ONE.build.variant_h=variant_{build.board}.h
+
 # Aurora One G030K8
 GenG0.menu.pnum.AURORA_ONE=Aurora One
 GenG0.menu.pnum.AURORA_ONE.upload.maximum_size=65536
